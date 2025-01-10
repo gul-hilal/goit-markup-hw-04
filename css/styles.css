@@ -395,7 +395,11 @@
     display: flex;
     gap: 16px;
   }
-  .icon icon-ellipse {
+  .footer-li {
+    width: 40px;
+    height: 40px;
+  }
+  .icon-ellipse, .icon-ellipse2, .icon-ellipse3, .icon-ellipse4 {
     fill: #f4f4fd;
     height: 40px;
     width: 40px;
@@ -415,6 +419,7 @@
   .footer-a:focus {
     background-color: #31d0aa;
   }
+  
   .footer-p {
     color: #f4f4fd;
     letter-spacing: 0.02em;
