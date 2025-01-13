@@ -326,8 +326,14 @@ p {
 }
 .our-portfolio-li {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.our-portfolio .our-portfolio-li:hover {
   transform: translateY(0%);
 }
+
+
 .our-div {
   position: relative;
   overflow: hidden;
